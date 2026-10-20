@@ -2057,3 +2057,116 @@ footer {
     .mobile-menu a { font-size: 28px; }
     .music-grid { grid-template-columns: 1fr; }
 }
+
+/* ── Artist Strategy Consultation ── */
+
+.consult-page .advisory-intro .section-label {
+    margin-bottom: 20px;
+}
+
+.consult-page .what-we-do {
+    max-width: 1000px;
+}
+
+.consult-page .about-copy .section-text {
+    margin-bottom: 24px;
+}
+
+.consult-page .about-copy .section-text:last-child {
+    margin-bottom: 0;
+}
+
+.consult-steps {
+    list-style: none;
+    margin-top: 40px;
+    max-width: 760px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.consult-step {
+    display: grid;
+    grid-template-columns: 64px 1fr;
+    gap: 24px;
+    align-items: start;
+    padding-top: 24px;
+    border-top: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+.consult-step-num {
+    font-family: var(--serif);
+    font-size: 28px;
+    font-weight: 400;
+    color: var(--gold);
+    opacity: 0.6;
+    line-height: 1;
+    padding-top: 4px;
+}
+
+.consult-pricing {
+    margin-top: 100px;
+    padding: 72px 32px;
+    border: 1px solid rgba(212, 175, 55, 0.3);
+    text-align: center;
+    max-width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.consult-pricing .section-label {
+    margin-bottom: 20px;
+}
+
+.consult-price {
+    font-family: var(--serif);
+    font-size: clamp(56px, 7vw, 88px);
+    font-weight: 400;
+    line-height: 1;
+    color: var(--gold);
+    margin-bottom: 20px;
+}
+
+.consult-price-note {
+    font-family: var(--sans);
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: rgba(212, 175, 55, 0.7);
+    margin-bottom: 36px;
+    line-height: 1.8;
+}
+
+.consult-faq {
+    max-width: 760px;
+    margin-top: 32px;
+}
+
+.consult-faq .faq-item {
+    border-bottom: 1px solid rgba(212, 175, 55, 0.15);
+}
+
+.consult-faq .faq-question {
+    color: var(--gold);
+}
+
+.consult-faq .faq-toggle {
+    color: var(--gold);
+}
+
+.consult-faq .faq-answer p {
+    color: var(--gold);
+    opacity: 0.75;
+}
+
+.consult-faq .faq-answer a {
+    color: var(--gold);
+}
+
+@media (max-width: 768px) {
+    .consult-step { grid-template-columns: 44px 1fr; gap: 16px; }
+    .consult-step-num { font-size: 22px; }
+    .consult-pricing { padding: 48px 20px; margin-top: 72px; }
+    .consult-steps { gap: 28px; }
+}
