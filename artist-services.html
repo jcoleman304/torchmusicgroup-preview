@@ -126,33 +126,33 @@
                 <li class="consult-step reveal">
                     <span class="consult-step-num">01</span>
                     <div>
-                        <h3 class="wwd-title">Request your session</h3>
-                        <p class="wwd-text">Tell us who you are, what you do, and what you want to get out of the consultation. Include links to your music.</p>
+                        <h3 class="wwd-title">Pick your time</h3>
+                        <p class="wwd-text">Choose an open session from the calendar below. Sessions are 60 minutes over Google Meet.</p>
                     </div>
                 </li>
                 <li class="consult-step reveal reveal-delay-1">
                     <span class="consult-step-num">02</span>
                     <div>
-                        <h3 class="wwd-title">Confirm and pay</h3>
-                        <p class="wwd-text">We reply with available times and a secure payment link. Your session is confirmed once payment is received.</p>
+                        <h3 class="wwd-title">Confirm with payment</h3>
+                        <p class="wwd-text">Complete the $500 payment at booking. Your session is confirmed the moment it goes through, and your Google Meet link arrives with your confirmation.</p>
                     </div>
                 </li>
                 <li class="consult-step reveal reveal-delay-2">
                     <span class="consult-step-num">03</span>
                     <div>
-                        <h3 class="wwd-title">Your private consultation</h3>
-                        <p class="wwd-text">A one-on-one video session with Joi, built around your music and your goals, that ends with clear next steps you can act on.</p>
+                        <h3 class="wwd-title">Tell us about you</h3>
+                        <p class="wwd-text">Answer a few short questions and share links to your music, so Joi reviews your work and your goals before the call and you get the full hour on strategy.</p>
                     </div>
                 </li>
             </ol>
         </div>
 
-        <div class="consult-pricing reveal">
+        <div class="consult-pricing reveal" id="book">
             <div class="section-label">Private Consultation</div>
             <div class="consult-price">$500</div>
-            <p class="consult-price-note">One-on-one session &middot; Artists, songwriters and producers &middot; Limited availability each month</p>
-            <a href="mailto:info@torchmusicgroup.com?subject=Artist%20Strategy%20Consultation%20Request&amp;body=Name%3A%20%0AArtist%20%2F%20professional%20name%3A%20%0AI%20am%20a%20(artist%20%2F%20songwriter%20%2F%20producer)%3A%20%0ACity%3A%20%0ALinks%20to%20my%20music%20(Spotify%2C%20Apple%2C%20SoundCloud%2C%20YouTube)%3A%20%0AInstagram%20%2F%20TikTok%3A%20%0AWhat%20I%20want%20to%20get%20out%20of%20the%20consultation%3A%20%0A" class="contact-btn consult-btn" id="consultBook">Request Your Consultation</a>
-            <p class="advisory-cta-note">Prefer email? Write to <a href="mailto:info@torchmusicgroup.com">info@torchmusicgroup.com</a> with the subject &ldquo;Artist Strategy Consultation.&rdquo;</p>
+            <p class="consult-price-note">60-minute video session &middot; Artists, songwriters and producers &middot; Limited availability each month</p>
+            <div class="calendly-inline-widget consult-calendar" data-url="https://calendly.com/joi-coleman-torchmusicgroup/artist-strategy-consultation?hide_gdpr_banner=1&background_color=000000&text_color=d4af37&primary_color=d4af37" style="min-width:320px;height:760px;"></div>
+            <p class="advisory-cta-note">Calendar not loading? <a href="https://calendly.com/joi-coleman-torchmusicgroup/artist-strategy-consultation" target="_blank" rel="noopener" id="consultBook">Open the booking page</a> &middot; Questions? <a href="mailto:info@torchmusicgroup.com?subject=Artist%20Strategy%20Consultation">info@torchmusicgroup.com</a></p>
         </div>
 
         <div class="about-block">
@@ -182,7 +182,7 @@
                         <span class="faq-toggle">+</span>
                     </button>
                     <div class="faq-answer">
-                        <p>Over video, one-on-one with Joi. Your session is scheduled once payment is confirmed, and your Google Meet link arrives with your confirmation.</p>
+                        <p>Over video, one-on-one with Joi. You pick a time on the calendar above, payment confirms the booking, and your Google Meet link arrives with your confirmation.</p>
                     </div>
                 </div>
                 <div class="faq-item reveal">
@@ -199,7 +199,7 @@
 
         <div class="advisory-cta reveal">
             <div class="section-label">Ready when you are</div>
-            <a href="#consultBook" class="contact-btn" onclick="document.getElementById('consultBook').click(); return false;">Request Your Consultation</a>
+            <a href="#book" class="contact-btn">Book Your Consultation</a>
             <p class="advisory-cta-note"><a href="catalog-advisory.html">Own a catalog? Explore Catalog Advisory</a> &middot; <a href="faqs.html">Read the FAQs</a></p>
         </div>
     </div>
@@ -243,5 +243,6 @@
 </footer>
 
 <script src="script.js"></script>
+<script src="https://assets.calendly.com/assets/external/widget.js" async></script>
 </body>
 </html>
